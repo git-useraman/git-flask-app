@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#header {
+    font-size: 2.5rem;
+}
+
+.content {
+    margin: 0 auto;
+    width: 600px;
+}
+
+table, td, th {
+    border: 1px solid #121111ec;
+}
+
+td, th {
+    width: 0;
+}
+
+table tr:nth-child(2n+2) {
+    background-color: bisque;
+}
+
+table tr:nth-child(2n+3) {
+    background-color: rgb(251, 204, 147);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsla(240, 81%, 64%, 0.8);
+}
+
+form input[type='text'], input[type='submit'] {
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.2);
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
